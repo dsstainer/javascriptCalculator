@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Most awesome calculator app in the world</title>
+        <link rel='stylesheet' type='text/css' href='index.css'>
+        <script src='index.js'></script>
+
+    </head>
+    <body>
+        <div class='calculator-wrapper'>
+            <textarea class='output-window' readonly></textarea>
+            <textarea class='input-window' ></textarea>
+            <div class='button-window'>
+                <div class='row-1'>
+                    <button onclick='backspace()'><=</button>
+                    <button onclick='clear_text()'>clear</button>
+                    <button onclick='execute()'>=</button>
+                    <button onclick='append(this)'>+</button>
+                </div>
+                <div class='row-2'>
+                    <button onclick='append(this)'>1</button>
+                    <button onclick='append(this)'>2</button>
+                    <button onclick='append(this)'>3</button>
+                    <button onclick='append(this)'>-</button>
+                </div>
+                <div class='row-3'>
+                    <button onclick='append(this)'>4</button>
+                    <button onclick='append(this)'>5</button>
+                    <button onclick='append(this)'>6</button>
+                    <button onclick='append(this)'>*</button>
+                </div>
+                <div class='row-4'>
+                    <button onclick='append(this)'>7</button>
+                    <button onclick='append(this)'>8</button>
+                    <button onclick='append(this)'>9</button>
+                    <button onclick='append(this)'>/</button>
+                </div>
+                <div class='row-5'>
+                    <button onclick='append(this)'>(</button>
+                    <button onclick='append(this)'>)</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
